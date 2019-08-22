@@ -1,0 +1,3 @@
+- `series.sh`: calls multiple `one_job.sh` with dependecies and different strides.
+- `one_job.sh`: a simple job that returns its first two arguments.
+- `submit_one_job.sh`: Slurm script to submit one instance of `one_job.sh`. This is used for testing.

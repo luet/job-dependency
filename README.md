@@ -12,4 +12,6 @@
 	TOTAL_NUMBER_JOBS = 10
 	STRIDE = 10
 	```
+	When the program is run, all the SLURM jobs are submitted. If one SLURM job fails, all the 
+	subsequent jobs will be canceled.
 - `submit_one_job.sh`: Slurm script to submit one instance of `one_job.sh`. This is used for testing.
